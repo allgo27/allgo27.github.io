@@ -3,22 +3,28 @@ html{
 }
 
 body{
-    color: #16262E;
+    color: #212D40;
     display: none;
     font-family: 'Josefin Sans', sans-serif;
 }
   a{
-    color:#16262E;
+    color:#212D40;
     font-family: 'Josefin Sans', sans-serif;
+}
 
-}
-a:link, a:visited, a:active{
+li a:link, a:visited, a:active{
     text-decoration: none;
-    color:#3C7A89;
+    color:#212D40;
 }
- a:hover{
+
+h5 a{
     text-decoration: none;
-    color:#DFBBB1;
+    color: #212D40;
+}
+
+ h5 a:hover{
+    text-decoration: none;
+    color:#E78F8E;
 }
 
   img{
@@ -33,7 +39,7 @@ a:link, a:visited, a:active{
   #pinkbox{
       height: 10px;
       width: 100%;
-      background-color: #DFBBB1;
+      background-color: #7D4E57;
       padding-top: -7%;
       margin-top: 7%;
       position: absolute;
@@ -44,19 +50,19 @@ a:link, a:visited, a:active{
     text-align:center;
     font-size: 6vw;
     margin-bottom: 1%;
-    color: #3C7A89;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    color: #7D4E57;
     text-decoration: underline;
-    text-decoration-color: #DFBBB1;
-    background-color: #F4E9CD;
+    text-decoration-color: #7D4E57;
+    background-color: #E6E8E8;
   }
   h1 a:hover {
     font-style: oblique;
-    color: #3C7A89;
     text-decoration: underline;
-    text-decoration-color: #DFBBB1;
+    color: #212D40;
+    text-decoration-color: #7D4E57;
   }
   h3{
       margin-top: 1%;
@@ -64,23 +70,26 @@ a:link, a:visited, a:active{
       font-size: 4vw;
       font-style: italic;
       margin-bottom: 1%;
-      margin-left: 5%
+      margin-left: 5%;
+      color: #7D4E57;
+      /* text-decoration: underline;
+      text-decoration-color: #7D4E57; */
       }
 h3:target{
         padding-top: 55px;
         margin-top: -55px;
 }
   h5{
-      color: #3C7A89;
+      color: #16262E;
       font-size: 3vw;
-      margin-left: 10%;
+      margin-left: 5%;
       margin-top: 2%;
       margin-bottom: 1%;
   }
 
   p {
       text-align: left;
-      margin-left: 12%;
+      margin-left: 8%;
       font-size: 2vw;
   }
  
@@ -103,19 +112,18 @@ h3:target{
       display: table-cell;
       text-align: center;  
   }
-  li a{
+  li a:link, a:visited, a:active{
       display: block;
       padding-top: 10px;
       padding-bottom: 10px;
-      color: #3C7A89;
+      color: #212D40;
       
 
   }
   li a:hover{
-      background-color: #DFBBB1;
+      background-color: #E78F8E;
       font-style: oblique;
-      color: #3C7A89;
-
+      color: #212D40;
   }
 
 
@@ -139,7 +147,7 @@ h3:target{
     min-height: 60px;
     border-right-style: solid;
     border-right-width: 1px;
-    border-right-color: #3C7A89;
+    border-right-color: #7D4E57;
     }
 
 .inner-left p	  {
@@ -149,14 +157,17 @@ h3:target{
 
 .inner-left p:hover	  {
     padding: 4px;
-    background-color: #DFBBB1;
+    background-color: #E78F8E;
     font-style: oblique;
     }
 
 .inner-left p a:hover	  {
-    color: #3C7A89;
+    color: #212D40;
 }
-
+.inner-left a:link, a:visited, a:active{
+    text-decoration: none;
+    color:#212D40;
+}
 .inner-right	  {
     font-size: 11px;
     padding: 5px 5px 5px 5px;
