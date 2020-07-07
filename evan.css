@@ -38,7 +38,7 @@ h5 a{
   }
   #pinkbox{
       height: 10px;
-      width: 100%;
+      width: 100vw;
       background-color: #7D4E57;
       padding-top: -7%;
       margin-top: 7%;
@@ -48,7 +48,7 @@ h5 a{
 
   h1{
     text-align:center;
-    font-size: 6vw;
+    font-size: clamp(40px, 6vw, 60px);
     margin-bottom: 1%;
     position: -webkit-sticky; /* Safari */
     position: sticky;
@@ -99,8 +99,7 @@ h3:target{
     width: 60%;
     margin: auto;
     list-style-type: none;
-    font-size: 2.5vw;
-
+    font-size: clamp(20px, 2.5vw, 30px);
   }
   
   ul.list{
@@ -175,3 +174,97 @@ h3:target{
     }
 
 .clear-floated	  { clear: both; height: 1px; font-size: 1px; line-height: 1px; padding: 0; margin: 0; }
+
+.row{
+    display: flex;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.index h3{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+body p{
+    font-size: clamp(20px, 2vw, 30px);
+    margin-left: 0px;
+    padding-left: 30px;
+    line-height: 1.5;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+body p a:hover	  {
+    color: #E78F8E;
+}
+body a:link, a:visited, a:active{
+    text-decoration: none;
+    color:#212D40;
+    font-style: oblique;
+}
+
+#column2{
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #7D4E57;
+}
+
+iframe{
+    height: 50vw;
+    width: 40vw;
+    margin-top: 15px;
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.social-media-list {
+    margin-top: 2vw;
+    list-style: none;
+    text-align: center;
+}
+
+.social-media-list li {
+    display: inline-block;
+    margin-right: 1em;
+    font-size: 180%;
+}
+
+.social-media-list li a {
+    color: #212D40;
+    transition: color 0.30s;
+}
+
+.social-media-list li a:hover {
+    background-color: transparent;
+    color: #E78F8E;
+}
+
+footer{
+    background-color: #7D4E57;
+}
+
+#contact{
+    font-size: 30px;
+}
+
+.contact h5{
+    text-align: center;
+}
+
+.contact a:hover{
+    color: #E78F8E;
+    display: inline-block;
+}
