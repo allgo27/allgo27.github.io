@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/test-paper/static/css/main.fcad1e52.css",
+    "main.js": "/test-paper/static/js/main.96869abf.js",
+    "static/js/787.1184f01e.chunk.js": "/test-paper/static/js/787.1184f01e.chunk.js",
+    "static/media/evan_edit.png": "/test-paper/static/media/evan_edit.5533168e758efa4a210e.png",
+    "index.html": "/test-paper/index.html",
+    "main.fcad1e52.css.map": "/test-paper/static/css/main.fcad1e52.css.map",
+    "main.96869abf.js.map": "/test-paper/static/js/main.96869abf.js.map",
+    "787.1184f01e.chunk.js.map": "/test-paper/static/js/787.1184f01e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcad1e52.css",
+    "static/js/main.96869abf.js"
+  ]
+}
